@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Pathfinding() {
+export default function PathFinding() {
   return (
-    <div>Pathfinding</div>
+    <div>PathFinding</div>
   )
 }
