@@ -5,6 +5,8 @@ import {
   FaDiscord,
   FaGithub,
   FaDribbble,
+  FaInstagram,
+  FaYoutube
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -43,13 +45,13 @@ export default function Footer() {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <a href="https://leetcode.com/Anukul_chandra/" className="hover:underline">
                     Leetcode
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://tailwindcss.com/"
+                    href="https://www.naukri.com/code360/profile/Anukul_Pr1me"
                     className="hover:underline"
                   >
                     Coding Ninjas
@@ -64,7 +66,7 @@ export default function Footer() {
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/AnukulPr1me"
                     className="hover:underline "
                   >
                     <FaGithub className="inline-block mr-2" />
@@ -73,7 +75,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="https://discord.gg/CKPTYTYX"
                     className="hover:underline"
                   >
                     <FaDiscord className="inline-block mr-2" />
@@ -105,8 +107,8 @@ export default function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
-              Anukul™
+            <a href="#" className="hover:underline">
+              Anukul's Visualizer
             </a>
             . All Rights Reserved.
           </span>
@@ -115,36 +117,36 @@ export default function Footer() {
               href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
-              <FaFacebook className="w-4 h-4 mr-1" />
-              <span className="sr-only">Facebook page</span>
+              <FaInstagram className="w-4 h-4 mr-1" />
+              <span className="sr-only">Instagram Page</span>
             </a>
             <a
-              href="#"
+              href="https://discord.gg/CKPTYTYX"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaDiscord className="w-4 h-4 mr-1" />
               <span className="sr-only">Discord community</span>
             </a>
             <a
-              href="#"
+              href="https://twitter.com/Anukulpr1me"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaTwitter className="w-4 h-4 mr-1" />
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="#"
+              href="https://github.com/anukulpr1me"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <FaGithub className="w-4 h-4 mr-1" />
               <span className="sr-only">GitHub account</span>
             </a>
             <a
-              href="#"
+              href="https://www.youtube.com/channel/UCl-K6lPd6-NJaxvbLJou5Vg"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
-              <FaDribbble className="w-4 h-4 mr-1" />
-              <span className="sr-only">Dribbble account</span>
+              <FaYoutube className="w-4 h-4 mr-1" />
+              <span className="sr-only">Youtube account</span>
             </a>
           </div>
         </div>
