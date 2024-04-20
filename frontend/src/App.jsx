@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Sorting from './pages/Sorting'
+import SortingVisualizer from './pages/SortingVisualizer/SortingVisualizer'
 import PathFinding from './pages/PathFinding'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Contact from './pages/Contact'
-import Piller from './algorithms/array_Pillers/Piller'
+
 
 export default function App() {
   return (
@@ -15,9 +15,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/sorting" element={<Sorting />} />
+        <Route path='/sorting' element={<SortingVisualizer />} />
         <Route path="/path-finding" element={<PathFinding />} />
-        <Route path="/piller" element={<Piller />} />     
+ 
       </Routes>
       <Footer/>
     
