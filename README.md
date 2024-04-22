@@ -1,6 +1,7 @@
-### Sorting and Pathfinding Algorithm Visualizer
+# Sorting and Pathfinding Algorithm Visualizer
 
 Welcome to our repository! This project is dedicated to providing an interactive platform for visualizing sorting and pathfinding algorithms. Whether you're a curious learner, a developer exploring algorithmic efficiency, or an educator looking for engaging teaching tools, our visualizer has something for you.
+![Webdev_future](https://github.com/AnukulPr1me/Visualizer/assets/101039186/a9036d51-6ce0-4f56-a611-9e52a4dd32ac)
 
 #### Features:
 
